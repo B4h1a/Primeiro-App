@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, View, Image, TouchableOpacity} from 'react-native';
 import Logo from "../../assets/instagram.png";
 import { Entypo, FontAwesome } from '@expo/vector-icons';
 
