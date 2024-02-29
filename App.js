@@ -1,14 +1,16 @@
-import { StyleSheet, View } from 'react-native';
-import Header from "./src/componets/Header";
-import Stories from "./src/componets/Stories";
+import { StyleSheet, View} from 'react-native';
+import Foto2 from "../teste/src/assets/Foto2.jpg";
+import InfoProfile from './src/componets/InfoProfile';
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <Header/>
-     <Stories/>
-      <View style={styles.fotos}>
-      </View>
+        <InfoProfile
+        image={Foto2} 
+        publi={100} 
+        followers={1230}
+        following={5}
+        description="Eae fi Bao?"/>
     </View>
   );
 }
@@ -20,8 +22,4 @@ const styles = StyleSheet.create({
     marginHorizontal: 16,
     marginVertical: 35,
   },
-  fotos: {
-    flexDirection: 'row',
-    gap: 16,
-  }
 });
