@@ -17,24 +17,16 @@ export default function MyPosts({image}){
             </TouchableOpacity>
             </View>
             <View style={styles.borda}></View>
-            <View>
-                <View style={styles.reta}>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-                </View>
-                <View style={styles.borda2}></View>
-                <View style={styles.reta}>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-                </View>
-                <View style={styles.borda2}></View>
-                <View style={styles.reta}>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-            <Image source={image} style={styles.marcha}/>
-                </View>
+            <View style={styles.reta}>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
+                <Image source={image} style={styles.marcha}/>
             </View>
         </View>
     );
@@ -50,15 +42,14 @@ const styles = StyleSheet.create({
         borderBottomWidth:2,
     },
     marcha:{
-        width:130,
-        height:130,
+        gap:2,
+        flexDirection:'row',
+        width:135,
+        height:140,
     },
     reta:{
+        gap:2,
         flexDirection:'row',
-        gap:7,
-    },
-    borda2:{
-        borderBottomWidth:3,
-        borderColor:'#FFFFFF',
+        flexWrap: 'wrap',
     },
   });

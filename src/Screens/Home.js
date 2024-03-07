@@ -1,9 +1,9 @@
 
 import { StyleSheet, View } from 'react-native';
-import Header from "./src/componets/Header";
-import Stories from "./src/componets/Stories";
+import Header from "../componets/Header";
+import Stories from "../componets/Stories";
 
-export default function App() {
+export default function Home() {
   return (
     <View style={styles.container}>
      <Header/>
@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    marginHorizontal: 16,
-    marginVertical: 35,
+    marginTop:35,
   },
 });
