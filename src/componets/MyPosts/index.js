@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         height:140,
     },
     reta:{
-        gap:2,
+        gap:3,
         flexDirection:'row',
         flexWrap: 'wrap',
     },

@@ -24,7 +24,7 @@ export default function Stories() {
 
 const styles = StyleSheet.create({
     container:{
-      gap:8,
-      height:100,
+      flexDirection: 'row',
+      gap:8
     },
   });
